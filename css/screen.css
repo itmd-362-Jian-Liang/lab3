@@ -11,6 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Forms
    ========================================================================== */
 
+
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
@@ -21,8 +22,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
+	font-family: "Sigmar", sans-serif; /* 1 */
+	font-size: 100%; /* 1 */
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
@@ -206,3 +209,28 @@ label {
 
 
 /* ===== STATE STYLES ======= */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+body {
+	font-family: 'Sigma' , 'Akaya Kanadaka' serif !important;
+	background-color: rgb(113, 121, 126);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+	margin: 0;
+}
+
+form{
+	background: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 8px 36px rbga(0, 0, 0, 0.2);
+	width: 95%;
+	max-width: 600px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
