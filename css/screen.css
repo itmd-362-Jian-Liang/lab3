@@ -233,4 +233,44 @@ form{
 	flex-direction: column;
 }
 
+/* Mobile Layout */
+@media (max-width: 767px) {
+	form {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		width: 90%;
+		max-width: 400px;
+		margin: auto;
+	}
+	
+	form h1 {
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	form p {
+		text-align: center;
+		font-size: 1rem;
+	}
+	form ol {
+		text-align: left;
+		padding: 0;
+	}
+	 form ol input[type="email"],
+   form ol input[type="text"],
+   form ol input[type="submit"] {
+      width: 100%;
+   }
+
+   input[type="submit"] {
+      padding: 14px;
+      font-size: 1.1rem;
+   }
+
+   #input-age-verification {
+      justify-content: center;
+   }
+}
 
