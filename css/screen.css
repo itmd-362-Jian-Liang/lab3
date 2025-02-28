@@ -278,18 +278,18 @@ form{
 		padding: 0;
 	}
 	 form ol input[type="email"],
-   form ol input[type="text"],
-   form ol input[type="submit"] {
-      width: 100%;
-   }
+  	 form ol input[type="text"],
+  	 form ol input[type="submit"] {
+		 width: 100%;
+       }
+	
+   	input[type="submit"] {
+		padding: 14px;
+     	        font-size: 1.1rem;
+       }
 
-   input[type="submit"] {
-      padding: 14px;
-      font-size: 1.1rem;
-   }
-
-   #input-age-verification {
-      justify-content: center;
-   }
+   	#input-age-verification {
+		justify-content: center;
+      }
 }
 
